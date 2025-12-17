@@ -1,3 +1,9 @@
+#Given variables
+party_pizza_mini = 14
+large = 8
+medium = 6
+people = 6 # friends
+
 #Do Not use crtl+A to select code.  Only copy the code below this line.
 #------------------------------------------------------------------------------------------------
 total_pizza = large + medium
@@ -9,12 +15,11 @@ leftover = total_pizza % people
 print(f'Each person gets : {share}')
 print(f'Leftover pizza : {leftover}')
 
-# TODO Update people #Eric and Brandon are coming too.
-# TODO Recalculate share
-# TODO Recalculate leftover
-# TODO Print share results
-# TODO Print leftover result
-
+people += 2
+share = total_pizza // people
+leftover = total_pizza % people
+print(f'Each person gets : {share}')
+print(f'Leftover pizza : {leftover}')
 #Mom says "Wait, Brandon’s coming. We’re going to need more pizza. I’ll upgrade the mini to a party_pizza instead. It’s the same as 2 minis. Hopefully the leftovers will be enough to fill his hollow leg.”
 
 # TODO Update slices
