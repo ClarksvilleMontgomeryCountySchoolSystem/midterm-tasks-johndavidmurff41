@@ -29,9 +29,5 @@ allowance -= toy
 allowance /= 2
 
 # Print final allowance
-print('Allowance: ${43.0}')
-# Week 3: Savings
-allowance /= 2
+print(f'Allowance: ${allowance}')
 
-# Print final allowance
-print('Allowance: ${43.0}')
