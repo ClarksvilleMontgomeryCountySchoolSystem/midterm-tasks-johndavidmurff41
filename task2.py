@@ -16,15 +16,20 @@ vacuum = $7                      snack = $4
 #Do Not use Ctrl+A to select code. Only copy the code below this line.
 #------------------------------------------------------------------------------------------------
 # Week 1: Chores and first purchase
-allowance += 4
-allowance += 10
-allowance -= 5
+allowance += dishes
+allowance += lawn
+allowance -= candy
 
 # Week 2: Bonus week and purchase
 allowance *= 3
-allowance += 7
-allowance -= 8
+allowance += vacuum
+allowance -= toy
 
+# Week 3: Savings
+allowance /= 2
+
+# Print final allowance
+print('Allowance: ${43.0}')
 # Week 3: Savings
 allowance /= 2
 
